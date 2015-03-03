@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'columns' => []
     ]); 
-    echo date("Y-m-d H:i:s");
+    echo "Текущее время: " . date("Y-m-d H:i:s");
 ?>
 
 <? Pjax::end();?>
