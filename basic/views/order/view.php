@@ -16,6 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <?
     echo GridView::widget([
         'dataProvider' => $dataProvider,
+        'columns' => []
     ]); 
     echo date("Y-m-d H:i:s");
 ?>
